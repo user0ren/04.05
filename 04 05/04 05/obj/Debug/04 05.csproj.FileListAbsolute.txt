@@ -1,0 +1,11 @@
+C:\Users\User2\Desktop\Новая папка\04 05\04 05\bin\Debug\04 05.exe.config
+C:\Users\User2\Desktop\Новая папка\04 05\04 05\bin\Debug\04 05.exe
+C:\Users\User2\Desktop\Новая папка\04 05\04 05\bin\Debug\04 05.pdb
+C:\Users\User2\Desktop\Новая папка\04 05\04 05\obj\Debug\04 05.csproj.AssemblyReference.cache
+C:\Users\User2\Desktop\Новая папка\04 05\04 05\obj\Debug\04 05.csproj.SuggestedBindingRedirects.cache
+C:\Users\User2\Desktop\Новая папка\04 05\04 05\obj\Debug\_04_05.Form1.resources
+C:\Users\User2\Desktop\Новая папка\04 05\04 05\obj\Debug\_04_05.Properties.Resources.resources
+C:\Users\User2\Desktop\Новая папка\04 05\04 05\obj\Debug\04 05.csproj.GenerateResource.cache
+C:\Users\User2\Desktop\Новая папка\04 05\04 05\obj\Debug\04 05.csproj.CoreCompileInputs.cache
+C:\Users\User2\Desktop\Новая папка\04 05\04 05\obj\Debug\04 05.exe
+C:\Users\User2\Desktop\Новая папка\04 05\04 05\obj\Debug\04 05.pdb
