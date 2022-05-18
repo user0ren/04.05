@@ -18,6 +18,11 @@ namespace _04_05
 
             textBox1.Validating += textBox1_TextChanged;
             textBox2.Validating += textBox2_TextChanged;
+
+            button2.Click += button2_Click;
+            button3.Click += button3_Click;
+            openFileDialog1.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
+            saveFileDialog1.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -62,6 +67,34 @@ namespace _04_05
             {
                 errorProvider1.Clear();
             }
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == DialogResult.Cancel)
+                return;
+            // получаем выбранный файл
+            string filename = openFileDialog1.FileName;
+            // читаем файл в строку
+            string fileText = System.IO.File.ReadAllText(filename);
+            textBox1.Text = fileText;
+            MessageBox.Show("Файл открыт");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialog1.ShowDialog() == DialogResult.Cancel)
+                return;
+            // получаем выбранный файл
+            string filename = saveFileDialog1.FileName;
+            // сохраняем текст в файл
+            System.IO.File.WriteAllText(filename, textBox1.Text);
+            MessageBox.Show("Файл сохранен");
         }
     }
 }
